@@ -80,6 +80,8 @@ end
 
 local function get_vxworks_banner(banner)
   local version
+  local v1
+  local v2
   if banner then
     v1, v2 = banner:match("VxWorks%s(%d+).(%d+)")
   end
